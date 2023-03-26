@@ -51,7 +51,8 @@
             "@php artisan key:generate --ansi"
         ],
         "format": "./vendor/bin/php-cs-fixer fix",
-        "analyse": "./vendor/bin/phpstan analyse app --memory-limit=2G"
+        "analyse": "./vendor/bin/phpstan analyse app --memory-limit=2G",
+        "test": "./vendor/bin/sail php artisan test"
     },
     "extra": {
         "laravel": {
